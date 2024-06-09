@@ -11,10 +11,10 @@ import pages.AddElementPage;
 import java.time.Duration;
 
 public class AddRemoveElementsTest extends Base {
-    String expectedUrl = "https://the-internet.herokuapp.com/add_remove_elements/";
-    String actualUrl;
-    int actualNumberOfElements;
-    int expectedNumberOfElements;
+    private String expectedUrl = "https://the-internet.herokuapp.com/add_remove_elements/";
+    private String actualUrl;
+    private int actualNumberOfElements;
+    private int expectedNumberOfElements;
 
     // Navigating to the page
     @BeforeMethod
