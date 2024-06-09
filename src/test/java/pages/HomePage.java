@@ -5,14 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-
-    String welcomeMessage;
-    WebDriver driver;
-    WebElement addRemoveElementsLink;
-    WebElement checkBoxesLink;
-    WebElement formAuthenticationLink;
-    WebElement keyPressesLink;
-    WebElement hoversLink;
+    private WebDriver driver;
+    private String welcomeMessage;
+    private WebElement addRemoveElementsLink;
+    private WebElement checkBoxesLink;
+    private WebElement formAuthenticationLink;
+    private WebElement keyPressesLink;
+    private WebElement hoversLink;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
