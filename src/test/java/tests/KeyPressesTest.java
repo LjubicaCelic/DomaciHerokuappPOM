@@ -13,13 +13,13 @@ import java.util.Random;
 
 
 public class KeyPressesTest extends Base {
-    String expectedMessage = "Key Presses\n" + "Key presses are often used to interact with a website (e.g., tab order, enter, escape, etc.). Press a key and see what you inputted.";
-    String expectedUrl = "https://the-internet.herokuapp.com/key_presses";
-    Random r = new Random();
-    char c = (char) (r.nextInt(26) + 'a');
-    String enteredChar = "" + c;
-    String expectedResult = "You entered: " + enteredChar.toUpperCase();
-    String youEnteredMessage = "You entered: ";
+    private String expectedMessage = "Key Presses\n" + "Key presses are often used to interact with a website (e.g., tab order, enter, escape, etc.). Press a key and see what you inputted.";
+    private String expectedUrl = "https://the-internet.herokuapp.com/key_presses";
+    private Random r = new Random();
+    private  char c = (char) (r.nextInt(26) + 'a');
+    private String enteredChar = "" + c;
+    private String expectedResult = "You entered: " + enteredChar.toUpperCase();
+    private String youEnteredMessage = "You entered: ";
 
     @BeforeMethod
     public void setUpPage() {
