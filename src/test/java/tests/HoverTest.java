@@ -10,14 +10,14 @@ import pages.HoverPage;
 import java.time.Duration;
 
 public class HoverTest extends Base {
-    String actualUrl;
-    String expectedUrl = "https://the-internet.herokuapp.com/hovers";
-    String actualPageMessage;
-    String expectedPageMessage = "Hovers\n" + "Hover over the image for additional information";
-    String user1Message = "name: user1\n" + "View profile";
-    String user2Message = "name: user2\n" + "View profile";
-    String user3Message = "name: user3\n" + "View profile";
-    String actualMessage;
+    private String actualUrl;
+    private String expectedUrl = "https://the-internet.herokuapp.com/hovers";
+    private String actualPageMessage;
+    private String expectedPageMessage = "Hovers\n" + "Hover over the image for additional information";
+    private String user1Message = "name: user1\n" + "View profile";
+    private String user2Message = "name: user2\n" + "View profile";
+    private String user3Message = "name: user3\n" + "View profile";
+    private String actualMessage;
 
     @BeforeMethod
     public void setUpPage() {
