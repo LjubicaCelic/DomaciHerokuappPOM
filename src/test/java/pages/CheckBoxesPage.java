@@ -8,10 +8,10 @@ import java.util.List;
 
 public class CheckBoxesPage {
 
-    WebDriver driver;
-    List<WebElement> checkBoxes;
-    WebElement checkbox1;
-    WebElement getCheckbox2;
+    private WebDriver driver;
+    private List<WebElement> checkBoxes;
+    private WebElement checkbox1;
+    private WebElement getCheckbox2;
 
     public CheckBoxesPage(WebDriver driver) {
         this.driver = driver;
