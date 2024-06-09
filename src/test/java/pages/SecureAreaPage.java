@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class SecureAreaPage {
-    WebDriver driver;
-    WebElement loggedInMessage;
-    WebElement secureAreaText;
-    WebElement logoutButton;
-    String secureAreaMessage;
+    private WebDriver driver;
+    private WebElement loggedInMessage;
+    private WebElement secureAreaText;
+    private WebElement logoutButton;
+    private String secureAreaMessage;
 
     public SecureAreaPage(WebDriver driver) {
         this.driver = driver;
