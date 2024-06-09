@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class KeyPressesPage {
-    WebDriver driver;
-    WebElement inputField;
-    WebElement result;
-    WebElement message;
-    WebElement messagePoweredBy;
+    private WebDriver driver;
+    private WebElement inputField;
+    private WebElement result;
+    private WebElement message;
+    private WebElement messagePoweredBy;
 
     public KeyPressesPage(WebDriver driver) {
         this.driver = driver;
