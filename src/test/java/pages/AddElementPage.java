@@ -7,9 +7,9 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class AddElementPage {
-    WebDriver driver;
-    List<WebElement> deleteButtons;
-    WebElement addElement;
+    private WebDriver driver;
+    private List<WebElement> deleteButtons;
+    private WebElement addElement;
 
 
     public AddElementPage(WebDriver driver) {
