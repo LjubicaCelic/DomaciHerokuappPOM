@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class HomePageTest extends Base {
-    String expectedUrl = "https://the-internet.herokuapp.com/";
-    String actualUrl;
-    String expectedMessage = "Welcome to the-internet";
-    String actualMessage;
+    private String expectedUrl = "https://the-internet.herokuapp.com/";
+    private String actualUrl;
+    private String expectedMessage = "Welcome to the-internet";
+    private String actualMessage;
 
 
     @BeforeMethod
