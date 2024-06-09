@@ -8,10 +8,10 @@ import org.openqa.selenium.interactions.Actions;
 import java.util.List;
 
 public class HoverPage {
-    WebDriver driver;
-    List<WebElement> users;
-    List<WebElement> usernames;
-    String hoverMessage;
+    private WebDriver driver;
+    private List<WebElement> users;
+    private List<WebElement> usernames;
+    private String hoverMessage;
 
     public HoverPage(WebDriver driver) {
         this.driver = driver;
