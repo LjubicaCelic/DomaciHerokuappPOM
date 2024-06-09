@@ -5,13 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage {
-    WebDriver driver;
-    WebElement usernameField;
-    WebElement passwordField;
-    WebElement loginButton;
-    WebElement error;
-    String errorMessage;
-    String secureAreaMessage;
+    private WebDriver driver;
+    private WebElement usernameField;
+    private WebElement passwordField;
+    private WebElement loginButton;
+    private WebElement error;
+    private String errorMessage;
+    private String secureAreaMessage;
 
 
     public LoginPage(WebDriver driver) {
