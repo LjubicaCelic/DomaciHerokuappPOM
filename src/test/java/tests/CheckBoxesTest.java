@@ -11,8 +11,8 @@ import java.time.Duration;
 
 public class CheckBoxesTest extends Base {
 
-    String expectedUrl = "https://the-internet.herokuapp.com/checkboxes";
-    String actualUrl;
+    private String expectedUrl = "https://the-internet.herokuapp.com/checkboxes";
+    private String actualUrl;
 
 
     @BeforeMethod
