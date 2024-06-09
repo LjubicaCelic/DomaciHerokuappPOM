@@ -11,17 +11,17 @@ import pages.SecureAreaPage;
 import java.time.Duration;
 
 public class LoginTest extends Base {
-    String validUsername = "tomsmith";
-    String validPassword = "SuperSecretPassword!";
-    String invalidUsername = "invalidUsername";
-    String invalidPassword = "1234";
-    String invalidUsernameMessage = "Your username is invalid!\n" + "×";
-    String invalidPasswordMessage = "Your password is invalid!\n" + "×";
-    String actualSecureAreaMessage;
-    String expectedSecureAreaMessage = "Welcome to the Secure Area. When you are done click logout below.";
-    String expectedUrl = "https://the-internet.herokuapp.com/login";
-    String actualUrl;
-    String secureUrl = "https://the-internet.herokuapp.com/secure";
+    private String validUsername = "tomsmith";
+    private String validPassword = "SuperSecretPassword!";
+    private String invalidUsername = "invalidUsername";
+    private String invalidPassword = "1234";
+    private String invalidUsernameMessage = "Your username is invalid!\n" + "×";
+    private String invalidPasswordMessage = "Your password is invalid!\n" + "×";
+    private String actualSecureAreaMessage;
+    private String expectedSecureAreaMessage = "Welcome to the Secure Area. When you are done click logout below.";
+    private String expectedUrl = "https://the-internet.herokuapp.com/login";
+    private String actualUrl;
+    private String secureUrl = "https://the-internet.herokuapp.com/secure";
 
     @BeforeMethod
     public void setUpPage() {
